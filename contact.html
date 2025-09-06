@@ -23,6 +23,7 @@
     <h1>Contact Me</h1>
 
     <div class="contact-container">
+  
       
         <div class="contact-info">
             <p><strong>Email:</strong> nj6111449@gmail.com</p>
@@ -30,10 +31,11 @@
             <p><strong>Location:</strong> Cumilla, Bangladesh</p>
         </div>
 
-        <form class="contact-form">
-            <input type="text" placeholder="Enter your Name"><br>
-            <input type="email" placeholder="Enter your Email"><br>
-            <textarea rows="4" cols="50" placeholder="Your message"></textarea><br>
+        <form class="contact-form"
+            action="https://formsubmit.co/nj6111449@gmail.com" method="post">
+            <input type="text"  name= "name" placeholder="Enter your name" required><br>
+            <input type="email" name="email" placeholder="Enter your email"><br>
+            <textarea name="message" rows="4" cols="50" placeholder="your message" required></textarea><br>
             <input type="submit" value="Send">
         </form>
     </div>
